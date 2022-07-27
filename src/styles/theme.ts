@@ -7,6 +7,7 @@ export const theme = {
     redDark: '#7A1921',
     background: '#121214',
     elements: '#202024',
+    card: '#29292E',
     divider: '#323238',
     placeholder: '#7C7C8A',
     label: '#8D8D99',
