@@ -1,19 +1,10 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-`
-
 export const MainContent = styled.main`
-  width: 70rem;
-  height: calc(100vh - 5rem);
-  border-radius: 0.5rem;
+  max-width: 74rem;
+  height: calc(100vh - 10rem);
+  border-radius: 8px;
+  margin: 5rem auto;
   background-color: ${({ theme }) => theme.colors.elements};
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 2.5rem;
 `
