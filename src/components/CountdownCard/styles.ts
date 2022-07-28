@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const CountdownCard = styled.div`
   display: block;
   padding: 2.5rem 1rem;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   background: ${({ theme }) => theme.colors.card};
   font-size: 10rem;
   font-style: normal;
