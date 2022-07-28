@@ -14,5 +14,8 @@ export const theme = {
     text: '#C4C4CC',
     title: '#E1E1E6',
     white: '#FFFFFF',
+    'red-500': '#AB222E',
+    'yellow-500': '#FBA94C',
+    'green-500': '#04D361',
   },
 }
