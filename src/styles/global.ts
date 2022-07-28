@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing:border-box;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 body, input, button, textarea {
   font-family: 'Roboto', 'sans-serif';
   color: ${(props) => props.theme.colors.white};
