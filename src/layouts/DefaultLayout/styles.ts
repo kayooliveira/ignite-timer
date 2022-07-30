@@ -7,4 +7,6 @@ export const MainContent = styled.main`
   margin: 5rem auto;
   background-color: ${({ theme }) => theme.colors.elements};
   padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
 `
